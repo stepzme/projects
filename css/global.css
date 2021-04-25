@@ -7,7 +7,6 @@ html {
   color: var(--color-dark0);
   overflow-y:scroll;
   -webkit-font-smoothing: antialiased;
-  height: 4000px;
 }
 
 a {
@@ -49,6 +48,10 @@ h4 {
   font-size: 1.333rem;
 }
 
+h5 {
+  font-size: 1rem;
+}
+
 .container {
   width: 100vw;
 }
@@ -65,12 +68,11 @@ h4 {
   justify-content: flex-end;
   max-width: 100%;
   padding: 2em 2em;
-  background-color: var(--color-light0);
 }
 
 .headerNav {
   color: var(--color-light3);
-  width: 14em;
+  width: 3em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -79,7 +81,6 @@ h4 {
 }
 
 .footerFixed {
-  position: fixed;
   left: 0%;
   top: auto;
   right: 0%;
