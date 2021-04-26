@@ -11,7 +11,7 @@
 }
 
 .grid {
-  margin-top: 5em;
+  margin-top: 1em;
   grid-auto-flow: row;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
@@ -22,7 +22,7 @@
 
 .gridItemSingle {
   width: 100%;
-  margin-bottom: 0em;
+  margin-bottom: 5em;
   -webkit-transition: -webkit-transform, color .4s ease;
   transition: -webkit-transform, color .4s ease;
   transition: transform, color .4s ease;
@@ -45,6 +45,11 @@
   display: inline-block;
 }
 
+.gridItemTitle {
+  margin: 16px 0 8px 0;
+  opacity: .5;
+}
+
 
 /**
 .gridItem-1 { grid-area: 1 / 1 / 2 / 2; }
@@ -58,10 +63,6 @@
   min-height: 500px;
 }
 **/
-
-.gridItemClient{
-  margin: 6px 0px;
-}
 
 @media screen and (min-width: 1440px) {
   .grid {

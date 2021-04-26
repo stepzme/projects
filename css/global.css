@@ -1,12 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Inter:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700);
 
 
 html {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
+  text-transform: uppercase;
   color: var(--color-dark0);
-  overflow-y:scroll;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 a {
@@ -71,13 +73,13 @@ h5 {
 }
 
 .headerNav {
-  color: var(--color-light3);
-  width: 3em;
+  width: 4em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   text-transform: uppercase;
   align-self: center;
+  color: var(--color-light3);
 }
 
 .footerFixed {
@@ -111,3 +113,5 @@ h5 {
 .linkBe:hover {
   color: #053EFF;
 }
+
+
